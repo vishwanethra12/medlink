@@ -1,0 +1,84 @@
+/* General container styles */
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color:rgb(167, 230, 240); /* Blue background */
+  min-height: 50vh; /* Ensure it covers the full viewport height */
+}
+
+/* Heading styles */
+.tasks-heading {
+  font-size: 24px;
+  font-weight:bold;
+  color: #ffa500; /* Orange color */
+  margin-bottom: 20px;
+}
+
+/* Input section styles */
+.input-section {
+  margin-bottom: 20px;
+}
+
+/* Task input and button styles */
+.task-input {
+  margin-right: 10px;
+}
+
+.add-task-button {
+  margin: 15px;
+}
+
+/* Drag and drop context styles */
+.drag-drop-context {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Column styles */
+.droppable-container {
+  background-color: #f4f4f4;
+  border: 4px solid #f1d506; /* Blue border */
+  border-radius: 4px;
+  padding: 10px;
+  width: 30%;
+  min-height: 300px;
+  margin: 0 10px; /* Space between columns */
+}
+
+/* Task item styles */
+.task-item {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* Completed task item styles */
+.complete {
+  background-color: #dff0d8;
+}
+
+/* Deleted task item styles */
+.delete {
+  background-color: #f2dede;
+}
+
+/* Logout button styles */
+.logout-button {
+  margin-top: 20px;
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
